@@ -1,0 +1,16 @@
+doctype html
+html(lang="en")
+  head
+    title='#{name}'
+    link(
+      type="text/css"
+      rel="stylesheet"
+      media="all"
+      href="#{assetDirectory}/css/style.css"
+    )
+  body
+    h1 Hello #{name}
+    script(
+      type='text/javascript'
+      src='#{assetDirectory}/js/sequencer.js'
+    )

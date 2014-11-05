@@ -2,19 +2,22 @@
   "name": "synth",
   "version": "1.0.0",
   "description": "",
-  "main": "sequencer.js",
+  "main": "./build/js/sequencer.js",
   "dependencies": {
-    "angular": "^1.3.1",
-    "jquery": "^2.1.1"
   },
   "devDependencies": {
     "gulp": "^3.8.9",
-    "gulp-browserify": "^0.5.0"
+    "gulp-browserify": "^0.5.0",
+    "gulp-jade": "^0.9.0",
+    "gulp-sass": "^1.2.2",
+      "angular": "^1.3.1",
+      "jquery": "^2.1.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "npm install",
     "build": "gulp"
   },
-  "author": "",
+  "author": "Adam Lusted",
   "license": "ISC"
 }
