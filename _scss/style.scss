@@ -1,3 +1,28 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
 body{
   font: 14px sans-serif;
+}
+
+@for $i from 1 through 12 {
+  .grid-width-#{$i} {
+    width: 100 / 12 * $i + vw;
+    display: inline-block;
+  }
+}
+
+@for $i from 1 through 4 {
+  .grid-height-#{$i} {
+    height: 100 / 4 * $i + vh;
+  }
+}
+
+.btn{
+  background: #2882A6;
+  border-right: solid black 1px;
+  border-bottom: solid black 1px;
+  box-sizing: border-box;
 }

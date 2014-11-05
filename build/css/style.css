@@ -1,2 +1,72 @@
+html, body {
+  margin: 0;
+  padding: 0; }
+
 body {
   font: 14px sans-serif; }
+
+.grid-width-1 {
+  width: 8.33333vw;
+  display: inline-block; }
+
+.grid-width-2 {
+  width: 16.66667vw;
+  display: inline-block; }
+
+.grid-width-3 {
+  width: 25vw;
+  display: inline-block; }
+
+.grid-width-4 {
+  width: 33.33333vw;
+  display: inline-block; }
+
+.grid-width-5 {
+  width: 41.66667vw;
+  display: inline-block; }
+
+.grid-width-6 {
+  width: 50vw;
+  display: inline-block; }
+
+.grid-width-7 {
+  width: 58.33333vw;
+  display: inline-block; }
+
+.grid-width-8 {
+  width: 66.66667vw;
+  display: inline-block; }
+
+.grid-width-9 {
+  width: 75vw;
+  display: inline-block; }
+
+.grid-width-10 {
+  width: 83.33333vw;
+  display: inline-block; }
+
+.grid-width-11 {
+  width: 91.66667vw;
+  display: inline-block; }
+
+.grid-width-12 {
+  width: 100vw;
+  display: inline-block; }
+
+.grid-height-1 {
+  height: 25vh; }
+
+.grid-height-2 {
+  height: 50vh; }
+
+.grid-height-3 {
+  height: 75vh; }
+
+.grid-height-4 {
+  height: 100vh; }
+
+.btn {
+  background: #2882A6;
+  border-right: solid black 1px;
+  border-bottom: solid black 1px;
+  box-sizing: border-box; }
